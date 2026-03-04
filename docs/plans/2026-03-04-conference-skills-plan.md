@@ -2,7 +2,7 @@
 
 **Source**: Coding Agents: AI Driven Dev Conference (6h 45m, 1159 paragraphs)
 **Goal**: Extract actionable insights from the conference transcript and turn them into shareable Claude Code skills for conference attendees.
-**Status**: Planning
+**Status**: Implementation — parallel execution plan ready
 
 ---
 
@@ -224,20 +224,30 @@ Using agents for open-ended competitor/customer/market research.
 
 ## Task Tracking
 
-### Phase 1: Planning (Current)
+### Phase 1: Planning
 - [x] Extract insights from transcript
 - [x] Organize into skill categories
 - [x] Create this plan document
-- [ ] Decide which skills to build first
-- [ ] Decide skill format and structure
+- [x] Decide which skills to build first — all 12
+- [x] Decide skill format and structure — based on visual-regression reference
+- [x] Write parallel execution plan (`docs/plans/2026-03-04-parallel-skill-creation.md`)
 
-### Phase 2: Skill Creation
+### Phase 2: Skill Creation (Parallel)
 - [x] Skill 1: Visual Regression Testing (`skills/visual-regression/SKILL.md`)
-- [ ] Skill 2: TBD
-- [ ] Skill 3: TBD
-- [ ] (more to be added after prioritization)
+- [ ] Skill 2: CRISPI Planning Workflow (`skills/crispi-planning/SKILL.md`)
+- [ ] Skill 3: Context Window Management (`skills/context-window-management/SKILL.md`)
+- [ ] Skill 4: Adversarial Code Review (`skills/adversarial-code-review/SKILL.md`)
+- [ ] Skill 5: Hooks & Enforcement (`skills/hooks-and-enforcement/SKILL.md`)
+- [ ] Skill 6: Parallel Agent Management (`skills/parallel-agent-management/SKILL.md`)
+- [ ] Skill 7: Objective Research (`skills/objective-research/SKILL.md`)
+- [ ] Skill 8: Expert Persona Skills (`skills/expert-persona-skills/SKILL.md`)
+- [ ] Skill 9: Voice-First Planning (`skills/voice-first-planning/SKILL.md`)
+- [ ] Skill 10: Agent-Maintained Docs (`skills/agent-maintained-docs/SKILL.md`)
+- [ ] Skill 11: Three-Layer Memory (`skills/three-layer-memory/SKILL.md`)
+- [ ] Skill 12: Product Research (`skills/product-research/SKILL.md`)
 
 ### Phase 3: Packaging & Distribution
-- [ ] Package skills for sharing
+- [ ] Merge all worktree branches
+- [ ] Update plan document with all completions
 - [ ] Create README with installation instructions
-- [ ] Share with conference attendees
+- [ ] Package for distribution to conference attendees
