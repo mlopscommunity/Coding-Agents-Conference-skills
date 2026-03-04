@@ -250,4 +250,4 @@ Using agents for open-ended competitor/customer/market research.
 - [x] Merge all worktree branches — N/A (all created on main branch)
 - [x] Update plan document with all completions
 - [x] Create README with installation instructions
-- [ ] Package for distribution to conference attendees
+- [x] Package for distribution to conference attendees — https://github.com/dpbrinkm/conference-skills
