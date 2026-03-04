@@ -1,6 +1,50 @@
-# Conference Skills for Claude Code
+# Coding Agents Conference Skills for Claude Code
 
-Actionable skills extracted from the **Coding Agents: AI Driven Dev Conference** (6h 45m, 12 speakers). Each skill encodes real techniques shared by practitioners — not theory, but what they actually do.
+Actionable skills extracted from **Coding Agents: The AI Driven Developer Conference** — a full-day event held on **March 3, 2025** at the **Computer History Museum** in Mountain View, CA, organized by the **[MLOps Community](https://mlops.community)**.
+
+These skills encode real techniques shared by practitioners on stage — not theory, but what they actually do day-to-day with coding agents.
+
+**[Watch the full livestream recording on YouTube](https://youtube.com/live/99Kxkemj1g8)**
+
+**[View the event agenda](https://app.mlops.community/events/coding-agents/agenda)**
+
+## Speakers & Talks
+
+### Keynotes
+
+| Speaker | Company / Role | Talk |
+|---------|---------------|------|
+| **Demetrios Brinkmann** | MLOps Community (Host) | Opening — The Era of Side Quests |
+| **Sid Bidasaria** | Co-creator, Claude Code (Anthropic) | How I Use Claude Code — Fireside Chat |
+| **Scott Breitenother** | Co-founder, Kilo Code | Scaling AI-Assisted Development — Lessons from 25 Trillion Tokens |
+| **Harrison Chase** | Founder, LangChain | The Agent Harness — Building General Purpose Agents |
+| **Sam Partee** | CTO, Arcade.dev | General Purpose Agents — Auth, Identity & Tool Use |
+| **Dexter Horthy** | Founder, HumanLayer | The CRISPI Planning Pipeline — Structured Agent Workflows |
+| **Ankit Mathur** | Databricks | Mosaic Coding Agent — Enterprise AI Development at Scale |
+| **Zach Lloyd** | Founder & CEO, Warp | Agent Orchestration — The Year of Multi-Agent Workflows |
+
+### Lightning Talks
+
+| Speaker | Company / Role | Talk |
+|---------|---------------|------|
+| **Jess (BrainTrust)** | BrainTrust | Evals for AI Tooling — Quantifying Ship Decisions |
+| **Faye Zhang** | Staff AI Engineer & Tech Lead, Pinterest | Productionizing Sub-Agents for LLM Post-Training |
+| **Yannis He** | Co-founder, SWE-bench Pro (Scale AI) | The Next Generation of Coding Agent Benchmarks |
+| **Erin Ahmed** | Head of Product, Cleric | Building a Learning Agent — Stateful AI SRE |
+| **Milan Williams** | Senior Product Manager, Semgrep | Three Security Tips for Coding Agents |
+| **Ash Lewis** | CEO, Fastino Labs | Choosing & Maintaining the Right Model for Agents |
+
+### Unconference / Audience Sessions
+
+The afternoon featured open unconference sessions where attendees shared techniques live. Contributors whose insights made it into these skills include: **Rob**, **Josh**, **Rafael**, **Chad**, **Yari**, **Omeh**, **Niels**, and others.
+
+### Workshops
+
+| Workshop | Instructor |
+|----------|-----------|
+| 5 Prompts to Ship Production Code 2x Faster With AI | Mihail Eric |
+| Optimizing Codebases for Agents | Shrivu Shankar |
+| Software Libraries with No Code | Drew Breunig |
 
 ## What Are Skills?
 
@@ -46,7 +90,7 @@ cp -r skills/* ~/.claude/skills/
 ### Option 3: Clone the repo and symlink
 
 ```bash
-git clone <this-repo> ~/projects/conference-skills
+git clone https://github.com/mlopscommunity/Coding-Agents-Conference-skills.git ~/projects/conference-skills
 ln -s ~/projects/conference-skills/skills/* ~/.claude/skills/
 ```
 
@@ -69,8 +113,10 @@ Once installed, skills are available in Claude Code. You can:
 4. **Adversarial Code Review** — automated PR review with noise reduction
 5. **Parallel Agent Management** — multiply throughput with worktrees
 
-## Conference
+## Source Material
 
-These skills were extracted from the **Coding Agents: AI Driven Dev Conference** hosted by Demetrios. Speakers included practitioners from Anthropic, HumanLayer, LangChain, Databricks, Pinterest, Semgrep, Kilo, and more.
+The full conference transcript is included at [`docs/coding_agents_conference_transcript.md`](docs/coding_agents_conference_transcript.md) (6h 45m, 1159 paragraphs). Each skill's Attribution section credits the specific speaker(s) and timestamps.
 
-Each skill's Attribution section credits the specific speaker(s) and timestamps from the conference.
+## About MLOps Community
+
+The [MLOps Community](https://mlops.community) is a global community of ML practitioners, engineers, and data scientists. We organize events, meetups, and conferences focused on the practical side of machine learning operations and AI-driven development.
