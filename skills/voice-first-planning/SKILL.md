@@ -46,7 +46,7 @@ Pick one and install it:
 
 | Tool | Platform | Notes |
 |------|----------|-------|
-| [WhisperFlow](https://github.com/lavanet/WhisperFlow) | macOS, Linux | Local Whisper-based, works offline, low latency. Recommended. |
+| [Wispr Flow](https://wisprflow.ai) | macOS, Windows, iOS, Android | AI-powered voice-to-text with auto-editing. 4x faster than typing. Recommended. |
 | macOS Dictation | macOS | Built-in. Press Fn Fn (or Globe key twice) in any text field. Good enough for most use cases. |
 | [Superwhisper](https://superwhisper.com) | macOS | Polished Whisper app with hotkey activation. |
 | Windows Voice Typing | Windows | Press Win+H. Built-in, decent quality. |
