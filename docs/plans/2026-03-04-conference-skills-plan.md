@@ -249,5 +249,5 @@ Using agents for open-ended competitor/customer/market research.
 ### Phase 3: Packaging & Distribution
 - [x] Merge all worktree branches — N/A (all created on main branch)
 - [x] Update plan document with all completions
-- [ ] Create README with installation instructions
+- [x] Create README with installation instructions
 - [ ] Package for distribution to conference attendees
