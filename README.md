@@ -20,6 +20,7 @@ These skills encode real techniques shared by practitioners on stage — not the
 | **Harrison Chase** | Founder, LangChain | The Agent Harness — Building General Purpose Agents |
 | **Sam Partee** | CTO, Arcade.dev | General Purpose Agents — Auth, Identity & Tool Use |
 | **Dexter Horthy** | Founder, HumanLayer | The CRISPI Planning Pipeline — Structured Agent Workflows |
+| **Jess Wang** | BrainTrust | Evals for AI Tooling — Quantifying Ship Decisions |
 | **Ankit Mathur** | Databricks | Mosaic Coding Agent — Enterprise AI Development at Scale |
 | **Zach Lloyd** | Founder & CEO, Warp | Agent Orchestration — The Year of Multi-Agent Workflows |
 
@@ -27,7 +28,6 @@ These skills encode real techniques shared by practitioners on stage — not the
 
 | Speaker | Company / Role | Talk |
 |---------|---------------|------|
-| **Jess (BrainTrust)** | BrainTrust | Evals for AI Tooling — Quantifying Ship Decisions |
 | **Faye Zhang** | Staff AI Engineer & Tech Lead, Pinterest | Productionizing Sub-Agents for LLM Post-Training |
 | **Yannis He** | Co-founder, SWE-bench Pro (Scale AI) | The Next Generation of Coding Agent Benchmarks |
 | **Erin Ahmed** | Head of Product, Cleric | Building a Learning Agent — Stateful AI SRE |
