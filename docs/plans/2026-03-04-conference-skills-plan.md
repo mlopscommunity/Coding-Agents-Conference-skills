@@ -2,7 +2,7 @@
 
 **Source**: Coding Agents: AI Driven Dev Conference (6h 45m, 1159 paragraphs)
 **Goal**: Extract actionable insights from the conference transcript and turn them into shareable Claude Code skills for conference attendees.
-**Status**: Implementation — parallel execution plan ready
+**Status**: All 12 skills complete — packaging for distribution
 
 ---
 
@@ -16,7 +16,7 @@ The conference transcript contains ~40+ actionable insights from speakers includ
 
 ### 1. CRISPI Planning Workflow
 **Speakers**: Dex (HumanLayer), Sid (Anthropic)
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 The single most detailed workflow from the conference. Evolved from "Research, Plan, Implement" (RPI) into a multi-stage pipeline with strict context isolation.
 
@@ -34,7 +34,7 @@ The single most detailed workflow from the conference. Evolved from "Research, P
 
 ### 2. Context Window Management
 **Speakers**: Dex (HumanLayer), Josh, Harrison Chase (LangChain)
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Practical heuristics for when to clear context, how to manage instruction budgets, and how to keep context lean.
 
@@ -51,7 +51,7 @@ Practical heuristics for when to clear context, how to manage instruction budget
 
 ### 3. Adversarial Code Review
 **Speakers**: Sid (Anthropic), Chad, Ankit (Databricks)
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Multi-agent review patterns with confidence thresholds, cross-model review, and noise reduction.
 
@@ -66,7 +66,7 @@ Multi-agent review patterns with confidence thresholds, cross-model review, and 
 
 ### 4. Hooks & Enforcement
 **Speakers**: Josh, Yari, Sid (Anthropic), Milan (Semgrep)
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Using Claude Code hooks to enforce what CLAUDE.md alone cannot.
 
@@ -82,7 +82,7 @@ Using Claude Code hooks to enforce what CLAUDE.md alone cannot.
 
 ### 5. Parallel Agent Management
 **Speakers**: Sid (Anthropic), Rob, Harrison Chase (LangChain), Niels
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Managing multiple agents across worktrees, containers, and sub-agent architectures.
 
@@ -97,7 +97,7 @@ Managing multiple agents across worktrees, containers, and sub-agent architectur
 
 ### 6. Objective Research Technique
 **Speakers**: Dex (HumanLayer)
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Keeping codebase research factual by separating intent from investigation.
 
@@ -110,7 +110,7 @@ Keeping codebase research factual by separating intent from investigation.
 
 ### 7. Skills as Expert Personas
 **Speakers**: Rafael, Sid (Anthropic), Josh
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Creating lightweight skills that prime the agent with domain expertise.
 
@@ -137,7 +137,7 @@ Automated screenshot-based QA at release time.
 
 ### 9. Voice-First Planning
 **Speakers**: Josh
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Using voice dictation for richer initial specs.
 
@@ -150,7 +150,7 @@ Using voice dictation for richer initial specs.
 
 ### 10. Agent-Maintained Documentation
 **Speakers**: Rob
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Having agents keep documentation current with validation hooks.
 
@@ -163,7 +163,7 @@ Having agents keep documentation current with validation hooks.
 
 ### 11. Three-Layer Memory System
 **Speakers**: audience member
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Layered memory architecture across tools.
 
@@ -177,7 +177,7 @@ Layered memory architecture across tools.
 
 ### 12. Product Research with Agents
 **Speakers**: Rob, Omeh
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete
 
 Using agents for open-ended competitor/customer/market research.
 
@@ -234,20 +234,20 @@ Using agents for open-ended competitor/customer/market research.
 
 ### Phase 2: Skill Creation (Parallel)
 - [x] Skill 1: Visual Regression Testing (`skills/visual-regression/SKILL.md`)
-- [ ] Skill 2: CRISPI Planning Workflow (`skills/crispi-planning/SKILL.md`)
-- [ ] Skill 3: Context Window Management (`skills/context-window-management/SKILL.md`)
-- [ ] Skill 4: Adversarial Code Review (`skills/adversarial-code-review/SKILL.md`)
-- [ ] Skill 5: Hooks & Enforcement (`skills/hooks-and-enforcement/SKILL.md`)
-- [ ] Skill 6: Parallel Agent Management (`skills/parallel-agent-management/SKILL.md`)
-- [ ] Skill 7: Objective Research (`skills/objective-research/SKILL.md`)
-- [ ] Skill 8: Expert Persona Skills (`skills/expert-persona-skills/SKILL.md`)
-- [ ] Skill 9: Voice-First Planning (`skills/voice-first-planning/SKILL.md`)
-- [ ] Skill 10: Agent-Maintained Docs (`skills/agent-maintained-docs/SKILL.md`)
-- [ ] Skill 11: Three-Layer Memory (`skills/three-layer-memory/SKILL.md`)
-- [ ] Skill 12: Product Research (`skills/product-research/SKILL.md`)
+- [x] Skill 2: CRISPI Planning Workflow (`skills/crispi-planning/SKILL.md`)
+- [x] Skill 3: Context Window Management (`skills/context-window-management/SKILL.md`)
+- [x] Skill 4: Adversarial Code Review (`skills/adversarial-code-review/SKILL.md`)
+- [x] Skill 5: Hooks & Enforcement (`skills/hooks-and-enforcement/SKILL.md`)
+- [x] Skill 6: Parallel Agent Management (`skills/parallel-agent-management/SKILL.md`)
+- [x] Skill 7: Objective Research (`skills/objective-research/SKILL.md`)
+- [x] Skill 8: Expert Persona Skills (`skills/expert-persona-skills/SKILL.md`)
+- [x] Skill 9: Voice-First Planning (`skills/voice-first-planning/SKILL.md`)
+- [x] Skill 10: Agent-Maintained Docs (`skills/agent-maintained-docs/SKILL.md`)
+- [x] Skill 11: Three-Layer Memory (`skills/three-layer-memory/SKILL.md`)
+- [x] Skill 12: Product Research (`skills/product-research/SKILL.md`)
 
 ### Phase 3: Packaging & Distribution
-- [ ] Merge all worktree branches
-- [ ] Update plan document with all completions
+- [x] Merge all worktree branches — N/A (all created on main branch)
+- [x] Update plan document with all completions
 - [ ] Create README with installation instructions
 - [ ] Package for distribution to conference attendees
