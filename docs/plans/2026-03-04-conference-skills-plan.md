@@ -124,7 +124,7 @@ Creating lightweight skills that prime the agent with domain expertise.
 
 ### 8. Visual Regression Testing
 **Speakers**: Rob
-**Skill Status**: [ ] Not started
+**Skill Status**: [x] Complete — `skills/visual-regression/SKILL.md`
 
 Automated screenshot-based QA at release time.
 
@@ -232,7 +232,7 @@ Using agents for open-ended competitor/customer/market research.
 - [ ] Decide skill format and structure
 
 ### Phase 2: Skill Creation
-- [ ] Skill 1: TBD
+- [x] Skill 1: Visual Regression Testing (`skills/visual-regression/SKILL.md`)
 - [ ] Skill 2: TBD
 - [ ] Skill 3: TBD
 - [ ] (more to be added after prioritization)
