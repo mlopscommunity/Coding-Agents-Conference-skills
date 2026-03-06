@@ -46,9 +46,6 @@ The afternoon featured open unconference sessions where attendees shared techniq
 | Optimizing Codebases for Agents | Shrivu Shankar |
 | Software Libraries with No Code | Drew Breunig |
 
-## What Are Skills?
-
-Skills are markdown files that teach Claude Code specific techniques. When you invoke a skill (via `/skill-name` or by loading it into context), Claude gains structured knowledge about how to apply that technique.
 
 ## The Skills
 
@@ -116,6 +113,10 @@ Once installed, skills are available in Claude Code. You can:
 ## Source Material
 
 The full conference transcript is included at [`docs/coding_agents_conference_transcript.md`](docs/coding_agents_conference_transcript.md) (6h 45m, 1159 paragraphs). Each skill's Attribution section credits the specific speaker(s) and timestamps.
+
+## More Conferences
+
+April 17th we are organizing an Agent Conference in Seattle. Early Bird tickets on sale now https://luma.com/ai-agents-summit-seattle
 
 ## About MLOps Community
 
