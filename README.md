@@ -2,6 +2,8 @@
 
 A living resource for MLOps practitioners using coding agents in production. This repository combines techniques and guides from the **Coding Agents Conference** (March 3, 2025) and the ongoing **Coding Agents Lunch & Learn** series, hosted by the **[MLOps Community](https://mlops.community)**.
 
+"I've installed these skills, no idea if they are making my agent's better or not. But they're not making them worse!" - @missberg
+
 **Not theory — this is what practitioners actually do**, day-to-day, with Claude Code and other agents.
 
 ## What's Inside
